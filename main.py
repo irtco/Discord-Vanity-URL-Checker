@@ -2,7 +2,6 @@ import requests
 import os
 import colorama
 from colorama import Fore , Back , Style
-import threading
 colorama.init ( autoreset = True )
 
 with open('list.txt','r') as handle:

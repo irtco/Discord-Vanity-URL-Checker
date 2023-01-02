@@ -2,7 +2,7 @@ import requests
 import os
 import colorama
 from colorama import Fore , Back , Style
-colorama.init ( autoreset = True )
+colorama.init (autoreset = True)
 
 with open('list.txt','r') as handle:
         list = handle.readlines()
